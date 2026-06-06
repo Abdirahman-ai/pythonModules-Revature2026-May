@@ -1,60 +1,45 @@
-2026-06-06 15:17:51,444 - root - INFO - Airfryer is frying 
-2026-06-06 15:18:46,170 - root - INFO - Airfryer is frying 
-2026-06-06 15:20:25,245 - root - INFO - Airfryer is frying 
-2026-06-06 15:20:25,246 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:20:54,940 - root - INFO - Airfryer is frying 
-2026-06-06 15:20:54,941 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:21:42,177 - root - INFO - Airfryer is frying 
-2026-06-06 15:21:42,178 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:22:38,197 - root - INFO - Airfryer is frying 
-2026-06-06 15:22:38,198 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:23:12,534 - root - INFO - Airfryer is frying 
-2026-06-06 15:23:12,535 - root - INFO - Setting temperature to 80
-2026-06-06 15:23:12,535 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:32:14,362 - root - INFO - Airfryer is frying 
-2026-06-06 15:32:14,362 - root - INFO - Setting temperature to 80
-2026-06-06 15:32:14,362 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:32:14,362 - root - INFO - Registering user FryGuy
-2026-06-06 15:32:14,362 - root - WARNING - User tried to say a nono word
-2026-06-06 15:32:51,837 - root - INFO - Airfryer is frying 
-2026-06-06 15:32:51,837 - root - INFO - Setting temperature to 80
-2026-06-06 15:32:51,837 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:32:51,838 - root - INFO - Registering user FryGuy
-2026-06-06 15:32:51,838 - root - WARNING - User tried to say a nono word
-2026-06-06 15:32:51,840 - root - INFO - Calculating tip of 5
-2026-06-06 15:32:51,840 - root - INFO - Calculating tip of 100
-2026-06-06 15:32:51,840 - root - WARNING - Attempting to set weight outside range -5
-2026-06-06 15:33:05,977 - root - INFO - Airfryer is frying 
-2026-06-06 15:33:05,977 - root - INFO - Setting temperature to 80
-2026-06-06 15:33:05,977 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:33:05,978 - root - INFO - Registering user FryGuy
-2026-06-06 15:33:05,978 - root - WARNING - User tried to say a nono word
-2026-06-06 15:33:05,980 - root - INFO - Calculating tip of 5
-2026-06-06 15:33:05,980 - root - INFO - Calculating tip of 100
-2026-06-06 15:33:05,980 - root - WARNING - Attempting to set weight outside range -5
-2026-06-06 15:34:33,346 - root - INFO - Airfryer is frying 
-2026-06-06 15:34:33,346 - root - INFO - Setting temperature to 80
-2026-06-06 15:34:33,346 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:34:33,346 - root - INFO - Registering user FryGuy
-2026-06-06 15:34:33,346 - root - WARNING - User tried to say a nono word
-2026-06-06 15:34:33,349 - root - INFO - Calculating tip of 5
-2026-06-06 15:34:33,349 - root - INFO - Calculating tip of 100
-2026-06-06 15:34:33,349 - root - WARNING - Attempting to set weight outside range -5
-2026-06-06 15:36:05,607 - root - INFO - Airfryer is frying 
-2026-06-06 15:36:05,608 - root - INFO - Setting temperature to 80
-2026-06-06 15:36:05,608 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:36:05,608 - root - INFO - Registering user FryGuy
-2026-06-06 15:36:05,608 - root - WARNING - User tried to say a nono word
-2026-06-06 15:36:05,611 - root - INFO - Calculating tip of 5
-2026-06-06 15:36:05,611 - root - INFO - Calculating tip of 100
-2026-06-06 15:36:05,611 - root - WARNING - Attempting to set weight outside range -5
-2026-06-06 15:36:05,611 - root - WARNING - Attempting to set weight outside range 112
-2026-06-06 15:36:15,755 - root - INFO - Airfryer is frying 
-2026-06-06 15:36:15,756 - root - INFO - Setting temperature to 80
-2026-06-06 15:36:15,756 - root - WARNING - Attempting to set temperature outside range 200
-2026-06-06 15:36:15,756 - root - INFO - Registering user FryGuy
-2026-06-06 15:36:15,756 - root - WARNING - User tried to say a nono word
-2026-06-06 15:36:15,758 - root - INFO - Calculating tip of 5
-2026-06-06 15:36:15,758 - root - INFO - Calculating tip of 100
-2026-06-06 15:36:15,758 - root - WARNING - Attempting to set weight outside range -5
-2026-06-06 15:36:15,758 - root - INFO - Calculating tip of 50
+2026-06-06 15:56:25,085 - root - INFO - Airfryer is frying
+2026-06-06 15:56:25,085 - root - INFO - Setting temperature to 80
+2026-06-06 15:56:25,085 - root - WARNING - Attempting to set temperature outside range 200
+2026-06-06 15:56:25,086 - root - INFO - Registering user FryGuy
+2026-06-06 15:56:25,086 - root - WARNING - User tried to use a blocked word
+2026-06-06 15:56:25,086 - root - INFO - Calculating tip for weight 5
+2026-06-06 15:56:25,086 - root - INFO - Calculating tip for weight 100
+2026-06-06 15:56:25,086 - root - WARNING - Attempting to set weight outside range -5
+2026-06-06 15:56:25,086 - root - INFO - Calculating tip for weight 50
+2026-06-06 16:29:31,428 - root - INFO - Airfryer is frying
+2026-06-06 16:29:31,429 - root - INFO - Setting temperature to 80
+2026-06-06 16:29:31,429 - root - WARNING - Attempting to set temperature outside range 200
+2026-06-06 16:29:31,429 - root - INFO - Registering user FryGuy
+2026-06-06 16:29:31,429 - root - WARNING - User tried to use a blocked word
+2026-06-06 16:29:31,429 - root - INFO - Calculating tip for weight 5
+2026-06-06 16:29:31,429 - root - INFO - Calculating tip for weight 100
+2026-06-06 16:29:31,429 - root - WARNING - Attempting to set weight outside range -5
+2026-06-06 16:29:31,429 - root - INFO - Calculating tip for weight 50
+2026-06-06 16:34:04,291 - root - INFO - Airfryer is frying
+2026-06-06 16:34:04,291 - root - INFO - Setting temperature to 80
+2026-06-06 16:34:04,292 - root - WARNING - Attempting to set temperature outside range 200
+2026-06-06 16:34:04,292 - root - INFO - Registering user FryGuy
+2026-06-06 16:34:04,292 - root - WARNING - User tried to use a blocked word
+2026-06-06 16:34:04,292 - root - INFO - Calculating tip for weight 5
+2026-06-06 16:34:04,292 - root - INFO - Calculating tip for weight 100
+2026-06-06 16:34:04,292 - root - WARNING - Attempting to set weight outside range -5
+2026-06-06 16:34:04,292 - root - WARNING - Attempting to set weight outside range 5000
+2026-06-06 16:34:13,551 - root - INFO - Airfryer is frying
+2026-06-06 16:34:13,551 - root - INFO - Setting temperature to 80
+2026-06-06 16:34:13,551 - root - WARNING - Attempting to set temperature outside range 200
+2026-06-06 16:34:13,551 - root - INFO - Registering user FryGuy
+2026-06-06 16:34:13,551 - root - WARNING - User tried to use a blocked word
+2026-06-06 16:34:13,551 - root - INFO - Calculating tip for weight 5
+2026-06-06 16:34:13,551 - root - INFO - Calculating tip for weight 100
+2026-06-06 16:34:13,551 - root - WARNING - Attempting to set weight outside range -5
+2026-06-06 16:34:13,551 - root - INFO - Calculating tip for weight 50
+2026-06-06 16:37:00,204 - root - INFO - Airfryer is frying
+2026-06-06 16:37:00,205 - root - INFO - Setting temperature to 80
+2026-06-06 16:37:00,205 - root - WARNING - Attempting to set temperature outside range 200
+2026-06-06 16:37:00,205 - root - INFO - Registering user FryGuy
+2026-06-06 16:37:00,205 - root - WARNING - User tried to use a blocked word
+2026-06-06 16:37:00,205 - root - INFO - Calculating tip for weight 5
+2026-06-06 16:37:00,205 - root - INFO - Calculating tip for weight 100
+2026-06-06 16:37:00,205 - root - WARNING - Attempting to set weight outside range -5
+2026-06-06 16:37:00,205 - root - INFO - Calculating tip for weight 50
