@@ -1,71 +1,77 @@
+"""""
+Airfryer module for practicing Python modules, logging, exceptions,
+regular expressions, and math operations.
+"""""
+
 import logging
+import math
+import re
 import sys
-# Configuring a Logger with the ptthon Logging Module
 
 logging.basicConfig(
-    level=logging.INFO, # allows all levels of logs
+    level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("airfryer.log"), # logs will get stored in a file
-        logging.StreamHandler(sys.stdout), # they will also get printed to the console
+        logging.FileHandler("airfryer.log"),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 
+
 class Airfryer:
-    # logging.info("Info message")
-    # logging.warning("Warning message")
-    # logging.error("Error message")
+    """""
+    Represents an air fryer with methods for frying food,
+    setting temperature, registering users, and calculating tips.
+    """""
 
     def fry(self):
-        logging.info("Airfryer is frying ")
-
+        """""
+        Fry food using the air fryer.
+        """""
+        logging.info("Airfryer is frying")
         return "Chips is frying food"
 
-    # This method has something that can go wrong
-
     def set_temperature(self, temperature):
+        """""
+        Set the air fryer temperature between 0 and 100 degrees Celsius.
+        """""
         if temperature < 0 or temperature > 100:
-            logging.warning(f"Attempting to set temperature outside range {temperature}")
+            logging.warning(
+                "Attempting to set temperature outside range %s",
+                temperature,
+            )
             raise ValueError("Temperature must be between 0 and 100")
 
-        logging.info(f"Setting temperature to {temperature}")
-        return f"Airfrying  temperature set to {temperature} degrees C"
+        logging.info("Setting temperature to %s", temperature)
+        return f"Airfrying temperature set to {temperature} degrees C"
 
-    # User Regisration method - will use the regex module ato validate username
     def register_user(self, username):
-        """"
-            Importing python's regex module
-            Regex (Regular Expression module) is a way to pattern match, search, and change strings
         """""
-        import re # python's regex module
+        Register a user after checking the username for blocked words.
+        """""
         if re.search(r"javascript", username, re.IGNORECASE):
-            logging.warning("User tried to say a nono word")
-
+            logging.warning("User tried to use a blocked word")
             raise ValueError("Username cannot contain vulgarity")
 
-        logging.info(f"Registering user {username}")
+        logging.info("Registering user %s", username)
         return f"User {username} registered successfully"
 
     def calculate_tip(self, weight):
         """""
-        importing the python module
-        this module contains tons of useful math operations and constant (like pi)
-        we'll just use a couple functions
+        Calculate a suggested tip based on weight.
         """""
-        import math
         if weight < 0 or weight > 100:
-            logging.warning(f"Attempting to set weight outside range {weight}")
+            logging.warning(
+                "Attempting to set weight outside range %s",
+                weight,
+            )
             raise ValueError("Weight must be between 0 and 100")
 
-        tip = math.pow(weight, 1.2) * .18
+        tip = math.pow(weight, 1.2) * 0.18
 
         print(f"Suggested tip of {tip:.2f} will be charged automatically")
-        print(f"You may round up to {math.ceil(tip)} cents if you'd like ")
+        print(f"You may round up to {math.ceil(tip)} cents if you'd like")
         print(f"or you may round down to {math.floor(tip)} cents if you watch an ad")
 
-        logging.info(f"Calculating tip of {weight}")
+        logging.info("Calculating tip for weight %s", weight)
         return tip
-
-
-
-
